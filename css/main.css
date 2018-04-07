@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+button {
+    
+  border: none;
+  background-color: transparent;
+    
+}
+
+span.hidden {
+  opacity: 0;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vertical button {
+    
+    padding: 491px 10px;
+    
+}
+
+.horizontal button {
+    
+    padding: 12px 938px;
+    
+}
+
+.show-left-button {
+    
+  position: absolute;
+  z-index: 1;    
+   
+}
+
+.show-right-button {
+    
+  position: absolute;
+  z-index: 1;
+  margin-left: 1896px;    
+    
+}
+
+.show-top-button {
+    
+    position:absolute;
+    z-index: 1;
+    margin-left: 20px;
+    margin-top: -3px;
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  margin: 130px 0 0px 0;
+}
+
+/* Top Card */
+
+.card-top {
+  position: relative;
+  margin-right: 140px;
+  border-radius: 5px;
+  width: 354px;
+}
+
+.card-top .group {
+  padding: 40px 30px;
+  -webkit-box-sizing: padding-box;
+  box-sizing: padding-box;
+}
+
+.card-top .group .title {
+  font-weight: 700;
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.card-top .group .subtitle {
+  font-size: 20px;
+  color: #b2b2b2;
+  text-align: center;
+}
+
+
+/* Left Card */
+
+.card-left {
+  position: relative;
+  margin-right: 140px;
+  border-radius: 5px;
+  width: 354px;
+}
+
+.card-left .group {
+  padding: 40px 30px;
+  -webkit-box-sizing: padding-box;
+  box-sizing: padding-box;
+}
+
+.card-left .group .title {
+  font-weight: 700;
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.card-left .group .subtitle {
+  font-size: 20px;
+  color: #b2b2b2;
+  text-align: center;
+}
+
+/* Middle card */
+
+.card-middle {
+    
+  position: relative;
+  margin-right: 0px;
+  border-radius: 5px;
+  width: 1000px;
+}
+
+.card-middle .group {
+  padding: 40px 30px;
+  -webkit-box-sizing: padding-box;
+  box-sizing: padding-box;
+  text-shadow: 3px 3px #000000;    
+  font-family: Helvetica; 
+}
+
+.card-middle .group .title {
+  font-weight: 700;
+  font-size: 100px;
+  text-align: center;
+  margin-bottom: 10px;   
+}
+
+.card-middle .group .subtitle {
+  font-size: 33px;
+  color: #b2b2b2;
+  text-align: center;
+}
+
+.card-middle .group .weather {
+  text-align: center;
+}
+
+.card-middle .group .weather .title {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.card-middle .group .weather .icon {
+  color: #b2b2b2;
+}
+
+/* Right Card */
+
+.card-right {
+  position: relative;    
+  width: 354px;
+  height: auto;
+  padding: 32px;
+  border-radius: 5px;
+}
+
+.card-right .cat-group .cat {
+  font-size: 20px;
+  margin-right: 10px;
+  display: inline;
+}
+
+.card-right .cat-group p {
+  font-size: 16px;
+  display: inline;
+  position: relative;
+}
+
+.card-right .cat-group :hover {
+
+    position: relative;
+    margin-left: 1px;
+    margin-bottom: 1px;
+    align-items: center;
+    width: 66px;
+    height: 66px;
+    transition: all 200ms linear;
+    
+} 
+
+/* Video Background */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.0);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}

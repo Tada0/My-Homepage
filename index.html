@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="css/weather-icons.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/modals.css">
+
+  <!--
+
+  <link rel="stylesheet" href="css/Bootstrap/bootstrap.min.css">
+
+    -->
+
+  <script src="js/Bootstrap/bootstrap.min.js"></script>
+
+
+  <title>Welcome!</title>
+
+</head>
+
+<body>
+
+    <!-- <script src ="js/background.js"></script> -->
+
+    <!-- Background -->
+    <video autoplay muted loop id="myVideo">
+     <source src="img/Background/background1.mp4" type="video/mp4">
+    </video>
+
+  <!-- Left Modal Button -->
+  <div class="show-left-button vertical">
+  <button id="myBtnLeft"></button>
+  </div>
+
+   <!-- Right Modal Button -->
+  <div class="show-right-button vertical">
+  <button id="myBtnRight"></button>
+  </div>
+
+    <!-- Top Modal Button -->
+    <div class="show-top-button horizontal">
+   <button id="myBtnTop"></button>
+   </div>
+
+
+
+<!-- The Top Modal -->
+   <!--
+<div id="myModalTop" id="modal-top">
+
+    <script src="js/Modals/TopModal.js"></script>
+
+        <div class="modal-content-right">
+
+        <div class="card-right">
+
+        <div class="cat-group">
+          <p><a href="http://facebook.com"><img src="img/icons/facebook.png" height="69" width="69"/></a></p>
+          <p><a href="http://instagram.com"><img src="img/icons/Instagram.png" height="69" width="69"/></a></p>
+          <p><a href="https://www.google.pl/maps?source=tldsi&hl=pl"><img src="img/icons/Google%20Maps.svg" height="69" width="69"/></a></p>
+          <p><a href="https://translate.google.pl/?hl=pl"><img src="img/icons/Google%20Translate.svg" height="69" width="69"/></a></p>
+        </div>
+
+            </div>
+
+        </div>
+
+</div>
+
+-->
+
+<!-- The Right Modal -->
+<div id="myModalRight" class="modal-right">
+
+  <script src="js/Modals/RightModal.js"></script>
+  <!-- Modal content -->
+
+    <div class="modal-content-right">
+
+        <div class="card-right">
+
+        <div class="cat-group">
+          <p><a href="http://facebook.com"><img src="img/icons/facebook.png" height="69" width="69"/></a></p>
+          <p><a href="http://instagram.com"><img src="img/icons/Instagram.png" height="69" width="69"/></a></p>
+          <p><a href="https://www.google.pl/maps?source=tldsi&hl=pl"><img src="img/icons/Google%20Maps.svg" height="69" width="69"/></a></p>
+          <p><a href="https://translate.google.pl/?hl=pl"><img src="img/icons/Google%20Translate.svg" height="69" width="69"/></a></p>
+        </div>
+
+        <div class="cat-group">
+          <p ><a href="http://youtube.com/"><img src="img/icons/Youtube.png" height="69" width="69"/></a></p>
+          <p><a href="http://9gag.com"><img src="img/icons/9gag.png" height="69" width="69"/></a></p>
+          <p><a href="http://gmail.com"><img src="img/icons/Gmail.svg" height="69" width="69"/></a></p>
+          <p><a href="https://drive.google.com/drive/my-drive"><img src="img/icons/Google%20Drive.svg" height="69" width="69"/></a></p>
+        </div>
+
+        <div class="cat-group">
+          <p><a href="http://boards.4chan.org"><img src="img/icons/4chan.png" height="69" width="69"/></a></p>
+          <p><a href="https://pl.aliexpress.com/"><img src="img/icons/aliexpress.png" height="69" width="69"/></a></p>
+          <p><a href="https://allegro.pl/"><img src="img/icons/allegro.png" height="69" width="69"/></a></p>
+          <p><a href="https://www.google.pl/?gfe_rd=cr&dcr=0&ei=JgcnWoT-N8X67gTl_4_YCw"><img src="img/icons/Google.svg" height="69" width="69"/></a></p>
+        </div>
+
+        <div class="cat-group">
+          <p><a href="https://jakdojade.pl/krakow/trasa/"><img src="img/icons/jak%20dojade.png" height="69" width="69"/></a></p>
+          <p><a href="https://jbzdy.pl/"><img src="img/icons/jbzd.png" height="69" width="69"/></a></p>
+          <p><a href="https://www.nestbank.pl/"><img src="img/icons/nestbank.png" height="69" width="69"/></a></p>
+          <p><a href="https://www.netflix.com/browse"><img src="img/icons/netflix.png" height="69" width="69"/></a></p>
+        </div>
+
+          <div class="cat-group">
+          <p><a href="https://www.reddit.com/"><img src="img/icons/reddit.png" height="69" width="69"/></a></p>
+          <p><a href="https://soundcloud.com/stream"><img src="img/icons/soundcloud.svg" height="69" width="69"/></a></p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+<!-- The Left Modal -->
+<div id="myModalLeft" class="modal-left">
+
+  <script src="js/Modals/LeftModal.js"></script>
+  <!-- Modal content -->
+
+    <div class="modal-content-left">
+
+        <div class="card-left">
+
+        <div class="group">
+
+        <script type="text/javascript" src="js/currency.js"></script>
+
+    <div class="coinmarketcap-currency-widget" data-currency="bitcoin" data-base="USD" data-secondary="" data-ticker="false" data-rank="false" data-marketcap="false" data-volume="false" data-stats="USD" data-statsticker="false" id="btc"></div>
+            </div>
+
+            <div class="group">
+    <div class="coinmarketcap-currency-widget" data-currency="ethereum" data-base="USD" data-secondary="" data-ticker="false" data-rank="false" data-marketcap="false" data-volume="false" data-stats="USD" data-statsticker="false" id="eth"></div>
+            </div>
+
+
+            <div class="group">
+    <div class="coinmarketcap-currency-widget" data-currency="iota" data-base="USD" data-secondary="" data-ticker="false" data-rank="false" data-marketcap="false" data-volume="false" data-stats="USD" data-statsticker="false"></div>
+            </div>
+
+
+             <div class="group">
+    <div class="coinmarketcap-currency-widget" data-currency="stellar" data-base="USD" data-secondary="" data-ticker="false" data-rank="false" data-marketcap="false" data-volume="false" data-stats="USD" data-statsticker="false"></div>
+              </div>
+
+        </div>
+
+
+    </div>
+
+  </div>
+
+    <section>
+
+    <div class="row">
+
+      <div class="card-middle">
+
+        <div class="group">
+          <h2 style="margin-top: -50px;" class="title" id="hour"></h2>
+          <p class="subtitle" id="date"></p>
+        </div>
+
+        <div class="group">
+          <div style="margin-top: -50px;" class="weather" id="weather1"></div>
+          <p class="subtitle" id="loc"></p>
+        </div>
+
+        <div class="group">
+          <p class="weather" id="forecast"></p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <script src="js/time.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="crossorigin="anonymous"></script>
+
+    <script src="js/jquery.simpleWeather.min.js"></script>
+
+    <script src="js/weather.js"></script>
+
+</body>
+
+</html>
